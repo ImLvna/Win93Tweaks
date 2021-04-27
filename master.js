@@ -8,6 +8,7 @@ $log("Welcome to Windows93 :)")
 $log("Running LvnaTweaks v0.1")
 $log(" ")
 }
+$loader.css("https://raw.githubusercontent.com/ImLvna/Win93Tweaks/main/master.css")
 if($fs.utils.exist('a/desktop/Freedom.lnk42') === false) {
    $store.set("desktop/Freedom.lnk42", "{\"icon\":\"/c/sys/skins/w93/stuff.png\",\"exe\":\"iframe https://freedomhost.ml\",\"title\":\"Freedom\"}")
    $explorer.refresh()

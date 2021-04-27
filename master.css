@@ -1,0 +1,30 @@
+:root {
+  --window-top-color: #0E0087;
+  --window-top-text-color: #fff;
+  --desktop-background: #008080;
+}
+
+
+
+
+.ui_window__head {
+  background: var(--window-top-color) !important;
+  background-image: var(--window-top-color) !important;
+}
+
+.ui_window__head__title {
+  color: var(--window-top-text-color);
+}
+
+.skin_background {
+  background: var(--desktop-background) !important;
+}
+
+.ui_window {
+  box-shadow: none !important
+}
+
+#s42_feed {
+  visibility: hidden !important;
+  width: 0px;
+}
